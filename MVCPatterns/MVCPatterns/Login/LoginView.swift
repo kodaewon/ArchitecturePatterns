@@ -1,5 +1,5 @@
 //
-//  KDW_LoginView.swift
+//  LoginView.swift
 //  MVCPatterns
 //
 //  Created by 고대원 on 2020/01/20.
@@ -10,7 +10,7 @@ import UIKit
 
 import SnapKit
 
-class KDW_LoginView: UIView {
+class LoginView: UIView {
     // MARK: - view properties
     let emailTextField: UITextField = {
         let textField = UITextField()
@@ -57,7 +57,7 @@ class KDW_LoginView: UIView {
 }
 
 // MARK: - setup
-extension KDW_LoginView {
+extension LoginView {
     func setupViews() {
         addSubview(emailTextField)
         addSubview(passwordTextField)

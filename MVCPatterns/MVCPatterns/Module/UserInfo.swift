@@ -1,5 +1,5 @@
 //
-//  KDW_UserInfoModel.swift
+//  UserInfo.swift
 //  MVCPatterns
 //
 //  Created by 고대원 on 2020/01/22.
@@ -8,6 +8,7 @@
 
 import Foundation
 
-struct KDW_UserInfoModel {
-    
+struct UserInfo {
+    var email: String = ""
+    var password: String = ""
 }

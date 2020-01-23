@@ -1,5 +1,5 @@
 //
-//  KDW_LoginViewController.swift
+//  LoginViewController.swift
 //  MVCPatterns
 //
 //  Created by 고대원 on 2020/01/20.
@@ -8,22 +8,22 @@
 
 import UIKit
 
-class KDW_LoginViewController: UIViewController {
+class LoginViewController: UIViewController {
     
     // MARK: - view properties
-    private var loginView: KDW_LoginView { view as! KDW_LoginView }
+    private var loginView: LoginView { view as! LoginView }
     
     private var emailTextField: UITextField { return loginView.emailTextField }
     private var passwordTextField: UITextField { return loginView.passwordTextField }
     private var signButton: UIButton { return loginView.signButton }
     
     // MARK: - properties
-    private let loginModel: KDW_LoginModel = KDW_LoginModel()
+    private let loginModel: LoginModel = LoginModel()
     
     // MARK: - lifecycle
     
     override func loadView() {
-        view = KDW_LoginView()
+        view = LoginView()
     }
 
     override func viewDidLoad() {
@@ -46,14 +46,14 @@ class KDW_LoginViewController: UIViewController {
             return
         }
         
-        let userInfo = KDW_UserInfo(email: emailTextField.text!, password: passwordTextField.text!)
+        let userInfo = UserInfo(email: emailTextField.text!, password: passwordTextField.text!)
         
-        navigationController?.pushViewController(KDW_UserInfoViewController(userInfo: userInfo), animated: true)
+        navigationController?.pushViewController(UserInfoViewController(userInfo: userInfo), animated: true)
     }
 }
 
 // MARK: - UITextFieldDelegate
-extension KDW_LoginViewController: UITextFieldDelegate {
+extension LoginViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if textField === emailTextField {
             passwordTextField.becomeFirstResponder()
@@ -65,7 +65,7 @@ extension KDW_LoginViewController: UITextFieldDelegate {
 }
 
 // MARK: - bind
-extension KDW_LoginViewController {
+extension LoginViewController {
     func binds() {
         emailTextField.delegate = self
         passwordTextField.delegate = self

@@ -1,5 +1,5 @@
 //
-//  KDW_LoginModel.swift
+//  LoginModel.swift
 //  MVCPatterns
 //
 //  Created by 고대원 on 2020/01/20.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct KDW_LoginModel {
+struct LoginModel {
     
     init() {
         

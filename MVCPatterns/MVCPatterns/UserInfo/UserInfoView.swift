@@ -1,5 +1,5 @@
 //
-//  KDW_UserInfoView.swift
+//  UserInfoView.swift
 //  MVCPatterns
 //
 //  Created by 고대원 on 2020/01/22.
@@ -10,7 +10,7 @@ import UIKit
 
 import SnapKit
 
-class KDW_UserInfoView: UIView {
+class UserInfoView: UIView {
     
     // MARK: - view properties
     let emailLabel: UILabel = {
@@ -26,10 +26,10 @@ class KDW_UserInfoView: UIView {
     }()
     
     // MARK: - properties
-    private var userInfo: KDW_UserInfo
+    private var userInfo: UserInfo
     
     // MARK: - init
-    init(userInfo: KDW_UserInfo) {
+    init(userInfo: UserInfo) {
         self.userInfo = userInfo
         super.init(frame: .zero)
         
@@ -51,7 +51,7 @@ class KDW_UserInfoView: UIView {
 }
 
 // MARK: - setup
-extension KDW_UserInfoView {
+extension UserInfoView {
     func setupViews() {
         addSubview(emailLabel)
         addSubview(passwordLabel)

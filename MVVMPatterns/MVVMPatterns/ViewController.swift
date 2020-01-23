@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  MVCPatterns
+//  MVVMPatterns
 //
-//  Created by 고대원 on 2020/01/20.
+//  Created by 고대원 on 2020/01/23.
 //  Copyright © 2020 고대원. All rights reserved.
 //
 
@@ -13,13 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-
-    @IBAction func KDWDidTap() {
-        
-        let vc = LoginViewController()
-        
-        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

@@ -13,14 +13,14 @@
 		4C403BFD23D5961D007F1C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C403BFB23D5961D007F1C93 /* Main.storyboard */; };
 		4C403BFF23D5961F007F1C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C403BFE23D5961F007F1C93 /* Assets.xcassets */; };
 		4C403C0223D5961F007F1C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C403C0023D5961F007F1C93 /* LaunchScreen.storyboard */; };
-		4C403C0E23D596AB007F1C93 /* KDW_LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C403C0D23D596AB007F1C93 /* KDW_LoginView.swift */; };
-		4C403C1023D596B7007F1C93 /* KDW_LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C403C0F23D596B7007F1C93 /* KDW_LoginViewController.swift */; };
-		4C403C1223D596C1007F1C93 /* KDW_LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C403C1123D596C1007F1C93 /* KDW_LoginModel.swift */; };
+		4C403C0E23D596AB007F1C93 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C403C0D23D596AB007F1C93 /* LoginView.swift */; };
+		4C403C1023D596B7007F1C93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C403C0F23D596B7007F1C93 /* LoginViewController.swift */; };
+		4C403C1223D596C1007F1C93 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C403C1123D596C1007F1C93 /* LoginModel.swift */; };
 		4C40CE4123D828170078488C /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40CE4023D828170078488C /* UIAlertController+Extension.swift */; };
-		4C40CE4323D82ABC0078488C /* KDW_UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40CE4223D82ABC0078488C /* KDW_UserInfoViewController.swift */; };
-		4C40CE4523D82ACC0078488C /* KDW_UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40CE4423D82ACC0078488C /* KDW_UserInfoView.swift */; };
-		4C40CE4723D82AD80078488C /* KDW_UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40CE4623D82AD80078488C /* KDW_UserInfoModel.swift */; };
-		4C40CE4923D830230078488C /* KDW_UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40CE4823D830230078488C /* KDW_UserInfo.swift */; };
+		4C40CE4323D82ABC0078488C /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40CE4223D82ABC0078488C /* UserInfoViewController.swift */; };
+		4C40CE4523D82ACC0078488C /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40CE4423D82ACC0078488C /* UserInfoView.swift */; };
+		4C40CE4723D82AD80078488C /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40CE4623D82AD80078488C /* UserInfoModel.swift */; };
+		4C40CE4923D830230078488C /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40CE4823D830230078488C /* UserInfo.swift */; };
 		B9A261A0BDA02992200432C1 /* libPods-MVCPatterns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F34159A990BF38957F17166 /* libPods-MVCPatterns.a */; };
 /* End PBXBuildFile section */
 
@@ -34,14 +34,14 @@
 		4C403BFE23D5961F007F1C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C403C0123D5961F007F1C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C403C0323D5961F007F1C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C403C0D23D596AB007F1C93 /* KDW_LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDW_LoginView.swift; sourceTree = "<group>"; };
-		4C403C0F23D596B7007F1C93 /* KDW_LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDW_LoginViewController.swift; sourceTree = "<group>"; };
-		4C403C1123D596C1007F1C93 /* KDW_LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDW_LoginModel.swift; sourceTree = "<group>"; };
+		4C403C0D23D596AB007F1C93 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4C403C0F23D596B7007F1C93 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4C403C1123D596C1007F1C93 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		4C40CE4023D828170078488C /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
-		4C40CE4223D82ABC0078488C /* KDW_UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDW_UserInfoViewController.swift; sourceTree = "<group>"; };
-		4C40CE4423D82ACC0078488C /* KDW_UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDW_UserInfoView.swift; sourceTree = "<group>"; };
-		4C40CE4623D82AD80078488C /* KDW_UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDW_UserInfoModel.swift; sourceTree = "<group>"; };
-		4C40CE4823D830230078488C /* KDW_UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDW_UserInfo.swift; sourceTree = "<group>"; };
+		4C40CE4223D82ABC0078488C /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		4C40CE4423D82ACC0078488C /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		4C40CE4623D82AD80078488C /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		4C40CE4823D830230078488C /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		5FE0B77EE366E5A82BF83054 /* Pods-MVCPatterns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCPatterns.debug.xcconfig"; path = "Target Support Files/Pods-MVCPatterns/Pods-MVCPatterns.debug.xcconfig"; sourceTree = "<group>"; };
 		7AE9C39C13D179B19A1C6AE2 /* Pods-MVCPatterns.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCPatterns.release.xcconfig"; path = "Target Support Files/Pods-MVCPatterns/Pods-MVCPatterns.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,22 +58,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C3FBAE323D6B05B003D1FF2 /* KDW */ = {
+		4C35473F23D951EC0078BE23 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				4C40CE3E23D81EA70078488C /* UserInfo */,
-				4C3FBAE423D6B05F003D1FF2 /* Login */,
-				4C40CE4823D830230078488C /* KDW_UserInfo.swift */,
+				4C40CE4823D830230078488C /* UserInfo.swift */,
 			);
-			path = KDW;
+			path = Module;
 			sourceTree = "<group>";
 		};
 		4C3FBAE423D6B05F003D1FF2 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				4C403C1123D596C1007F1C93 /* KDW_LoginModel.swift */,
-				4C403C0F23D596B7007F1C93 /* KDW_LoginViewController.swift */,
-				4C403C0D23D596AB007F1C93 /* KDW_LoginView.swift */,
+				4C403C1123D596C1007F1C93 /* LoginModel.swift */,
+				4C403C0F23D596B7007F1C93 /* LoginViewController.swift */,
+				4C403C0D23D596AB007F1C93 /* LoginView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -100,7 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				4C40CE3F23D828030078488C /* Extension */,
-				4C3FBAE323D6B05B003D1FF2 /* KDW */,
+				4C35473F23D951EC0078BE23 /* Module */,
+				4C40CE3E23D81EA70078488C /* UserInfo */,
+				4C3FBAE423D6B05F003D1FF2 /* Login */,
 				4C403BF523D5961D007F1C93 /* AppDelegate.swift */,
 				4C403BF723D5961D007F1C93 /* SceneDelegate.swift */,
 				4C403BF923D5961D007F1C93 /* ViewController.swift */,
@@ -115,9 +115,9 @@
 		4C40CE3E23D81EA70078488C /* UserInfo */ = {
 			isa = PBXGroup;
 			children = (
-				4C40CE4623D82AD80078488C /* KDW_UserInfoModel.swift */,
-				4C40CE4223D82ABC0078488C /* KDW_UserInfoViewController.swift */,
-				4C40CE4423D82ACC0078488C /* KDW_UserInfoView.swift */,
+				4C40CE4623D82AD80078488C /* UserInfoModel.swift */,
+				4C40CE4223D82ABC0078488C /* UserInfoViewController.swift */,
+				4C40CE4423D82ACC0078488C /* UserInfoView.swift */,
 			);
 			path = UserInfo;
 			sourceTree = "<group>";
@@ -246,15 +246,15 @@
 			files = (
 				4C403BFA23D5961D007F1C93 /* ViewController.swift in Sources */,
 				4C40CE4123D828170078488C /* UIAlertController+Extension.swift in Sources */,
-				4C403C1223D596C1007F1C93 /* KDW_LoginModel.swift in Sources */,
-				4C40CE4723D82AD80078488C /* KDW_UserInfoModel.swift in Sources */,
+				4C403C1223D596C1007F1C93 /* LoginModel.swift in Sources */,
+				4C40CE4723D82AD80078488C /* UserInfoModel.swift in Sources */,
 				4C403BF623D5961D007F1C93 /* AppDelegate.swift in Sources */,
-				4C40CE4323D82ABC0078488C /* KDW_UserInfoViewController.swift in Sources */,
-				4C403C0E23D596AB007F1C93 /* KDW_LoginView.swift in Sources */,
-				4C40CE4523D82ACC0078488C /* KDW_UserInfoView.swift in Sources */,
-				4C403C1023D596B7007F1C93 /* KDW_LoginViewController.swift in Sources */,
+				4C40CE4323D82ABC0078488C /* UserInfoViewController.swift in Sources */,
+				4C403C0E23D596AB007F1C93 /* LoginView.swift in Sources */,
+				4C40CE4523D82ACC0078488C /* UserInfoView.swift in Sources */,
+				4C403C1023D596B7007F1C93 /* LoginViewController.swift in Sources */,
 				4C403BF823D5961D007F1C93 /* SceneDelegate.swift in Sources */,
-				4C40CE4923D830230078488C /* KDW_UserInfo.swift in Sources */,
+				4C40CE4923D830230078488C /* UserInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

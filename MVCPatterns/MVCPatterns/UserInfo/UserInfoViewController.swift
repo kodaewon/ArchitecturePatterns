@@ -1,5 +1,5 @@
 //
-//  KDW_UserInfoViewController.swift
+//  UserInfoViewController.swift
 //  MVCPatterns
 //
 //  Created by 고대원 on 2020/01/22.
@@ -8,17 +8,17 @@
 
 import UIKit
 
-class KDW_UserInfoViewController: UIViewController {
+class UserInfoViewController: UIViewController {
     
     // MARK: - view properties
-    private var userInfoView: KDW_UserInfoView { return view as! KDW_UserInfoView }
+    private var userInfoView: UserInfoView { return view as! UserInfoView }
     
     // MARK: - properties
-    private let userInfoModel = KDW_UserInfoModel()
-    private var userInfo: KDW_UserInfo
+    private let userInfoModel = UserInfoModel()
+    private var userInfo: UserInfo
     
     // MARK: - init
-    init(userInfo: KDW_UserInfo) {
+    init(userInfo: UserInfo) {
         self.userInfo = userInfo
         super.init(nibName: nil, bundle: nil)
     }
@@ -29,7 +29,7 @@ class KDW_UserInfoViewController: UIViewController {
     
     // MARK: - lifecycle
     override func loadView() {
-        view = KDW_UserInfoView(userInfo: userInfo)
+        view = UserInfoView(userInfo: userInfo)
     }
 
     override func viewDidLoad() {
