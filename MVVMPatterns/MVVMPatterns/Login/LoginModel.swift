@@ -6,4 +6,6 @@
 //  Copyright © 2020 고대원. All rights reserved.
 //
 
-import Foundation
+struct LoginModel {
+    
+}
