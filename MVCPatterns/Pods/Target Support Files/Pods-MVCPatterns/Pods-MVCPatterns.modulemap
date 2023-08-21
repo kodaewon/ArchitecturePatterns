@@ -1,6 +1,0 @@
-module Pods_MVCPatterns {
-  umbrella header "Pods-MVCPatterns-umbrella.h"
-
-  export *
-  module * { export * }
-}

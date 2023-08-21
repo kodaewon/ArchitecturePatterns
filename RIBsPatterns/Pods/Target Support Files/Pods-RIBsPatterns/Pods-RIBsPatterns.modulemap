@@ -1,6 +1,0 @@
-module Pods_RIBsPatterns {
-  umbrella header "Pods-RIBsPatterns-umbrella.h"
-
-  export *
-  module * { export * }
-}
