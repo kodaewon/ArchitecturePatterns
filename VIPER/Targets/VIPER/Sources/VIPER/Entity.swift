@@ -11,3 +11,14 @@ import Foundation
 struct User: Codable {
     let name: String
 }
+
+extension User {
+    static func getMock() -> [User] {
+        return [
+            User(name: "a"),
+            User(name: "ab"),
+            User(name: "abc"),
+            User(name: "abcd")
+        ]
+    }
+}

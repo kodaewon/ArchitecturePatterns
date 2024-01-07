@@ -42,6 +42,12 @@ class ViewController: UIViewController, AnyView, UITableViewDelegate, UITableVie
         tableView.dataSource = self
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        
+    }
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         

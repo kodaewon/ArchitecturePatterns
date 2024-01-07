@@ -20,6 +20,8 @@ class UserInteractor: AnyInteractor {
     var presenter: AnyPresenter?
     
     func getUsers() {
+        self.presenter?.interactorDidFetchUsers(with: .success(User.getMock()))
+        
         guard let url = URL(string: "") else { return }
         let task = URLSession.shared.dataTask(with: url, completionHandler: { [weak self] (data, response, error) in
             guard let data = data, error == nil else {
